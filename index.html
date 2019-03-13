@@ -1,0 +1,130 @@
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,800' rel='stylesheet' type='text/css'>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat", "Helvetica", sans-serif;
+            font-smoothing: antialiased;
+        }
+        #header {
+            padding-top: 5px;
+            text-align: center;
+            background-image: url('header.png');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: 0% 37%;
+        }
+        #logo {
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #logo img {
+            float: left;
+            margin-right: 20px;
+        }
+        #logo h1 {
+            padding-top: 64px;
+            color: #FFFFFF;
+            font-family: 'Open Sans';
+            font-size: 32px;
+            font-weight: 800;
+            letter-spacing: 0px;
+            line-height: 32px;
+            text-transform: uppercase;
+        }
+        #logo h2 {
+            padding-top: 20px;
+            font-family: 'Open Sans';
+            color: #FFFFFF;
+            font-size: 30px;
+            font-weight: 300;
+            letter-spacing: -1px;
+            line-height: 25px;
+        }
+        #message {
+            clear: both;
+            padding-top: 12px;
+            text-align: center;
+            width: 100%;
+        }
+        #message p {
+            font-family: 'Open Sans';
+            font-weight: 400;
+            line-height: 32px;
+            margin-bottom: 25px;
+            max-width: 650px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        #demos {
+            width: 1300px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+        img.display {
+            width: 280px;
+            height: 160px;
+            border: 1px solid black;
+            margin: 10px;
+            opacity: 0.5;
+            transition: opacity 0.3s;
+        }
+        img.display:hover {
+            opacity: 1;
+            transition: opacity 0.3s;
+        }
+        #video {
+            padding-top: 20px;
+            width: 100%;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <div id="logo">
+            <a href="http://ai-4-all.org" target="_blank"><img src="LogoWName.png" alt="AI4ALL" /></a>
+            <h1>AI4ALL @ 2019 Bay Area TEALS CS Fair</h1>
+            <h2>AI will change the world. Who will change AI?</h2>
+        </div>
+        <div style="clear:both; padding-bottom: 15px">&nbsp;</div>
+    </div>
+
+    <div id="message">
+        <p>Click on one of the demos below!</p>
+    </div>
+
+    <div id="demos">
+
+        <a href="https://www.youtube.com/watch?v=DlkMs4ZHHr8" target="_blank"><img class="display" src="mario.png" alt="Super Mario AI" /></a>
+
+        <a href="http://scs.ryerson.ca/~aharley/vis/conv/flat.html" target="_blank"><img class="display" src="mnist.png" alt="Neural Network MNIST" /></a>
+
+        <a href="https://rednuht.org/geneticat/" target="_blank"><img class="display" src="cat.png" alt="Genetic Algorithm Cat" /></a>
+
+        <a href="https://rednuht.org/genetic_walkers/" target="_blank"><img class="display" src="runner.png" alt="Genetic Algorithm Runner" /></a>
+
+        <a href="https://playground.tensorflow.org/#activation=sigmoid&batchSize=10&dataset=circle&regDataset=reg-gauss&learningRate=1&regularizationRate=0&noise=0&networkShape=4,2&seed=0.49237&showTestData=false&discretize=true&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false&regularization_hide=true&showTestData_hide=true&noise_hide=true&batchSize_hide=true&learningRate_hide=false&regularizationRate_hide=true&percTrainData_hide=true&discretize_hide=true&dataset_hide=false" target="_blank"><img class="display" src="tensor.png" alt="Tensorflow PLayground" /></a>
+
+        <a href="https://www.youtube.com/watch?time_continue=14&v=1RfK7KIPgJA" target="_blank"><img class="display" src="cozmo.png" alt="Calypso for Cozmo Video" /></a>
+
+        <a href="https://www.clarifai.com/demo" target="_blank"><img class="display" src="clarifai.png" alt="Clarifai Demo" /></a>
+
+       <a href="https://www.microsoft.com/en-us/seeing-ai" target="_blank"><img class="display" src="seeing.png" alt="Seeing AI" /></a>
+
+    </div>
+
+    <div id="video">
+
+        <iframe src="https://player.vimeo.com/video/289133899" width="640" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+    </div>
+
+<body>
+</html>
